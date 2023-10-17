@@ -2,8 +2,16 @@
 module.exports = {
   content: ['./*.html'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Josefin Sans', 'sans-serif'],
+        alata: ['Alata'],
+        montserrat:['Montserrat','sans-serif']
+      },
+    },
   },
   plugins: [],
+
 }
+
 
